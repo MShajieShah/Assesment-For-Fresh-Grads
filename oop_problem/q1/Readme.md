@@ -22,7 +22,7 @@ Each api have a different token which will be added after the url like this  htt
 
 * instance = SearchEngine.get_instance
 * instance.display_data
-* instance.store_date(name , description ,price)
+* instance.store_data(name , description ,price)
 
 # Our end goal is to take data from those three apis and store them in SearchEngine. So when we call instance.display_data it will show all the data. So you have to design a sync class which will take data and update/add in SeachEngine class.
 
