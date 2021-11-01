@@ -1,4 +1,4 @@
-System plus new client xyz has a project going on in which they collect data from different data providers and store them in their database.They wanted to build a search engine in which users can search from one place instead of going to each data provider. Each of the providers provide the api and their end points to access data.Sohail your team lead has given you a task for this week to create a class wrapper for those apis. Class wrapper would be like a class in which their methods would be the apis end point and calling them will get us the response that we get when we hit an endpoint of the api.
+System plus new client xyz has a project going on in which they collect data from different data providers and store them in their database.They wanted to build a search engine in which users can search from one place instead of going to each data provider. Each of the providers provide the api and their end points to access data.So at the end of the day you have to get the updated data each day and store it in your database . Sohail your team lead has given you a task for this week to create a class wrapper for those apis. Class wrapper would be like a class in which their methods would be the apis end point and calling them will get us the response that we get when we hit an endpoint of the api.
 Instead of hitting the api we have provided you a class called Internet which will act as a dependency injection so in code you don't  actual have to call a endpoint
 ## Internet.get_response(url)
 
@@ -24,8 +24,8 @@ Each api have a different token which will be added after the url like this  htt
 * instance.display_data
 * instance.store_date(name , description ,price)
 
-# Our end goal is to take data from those three apis and store them in SearchEngine. So when we call instance.display_data it will show all the data.
+# Our end goal is to take data from those three apis and store them in SearchEngine. So when we call instance.display_data it will show all the data. So you have to design a sync class which will take data and update/add in SeachEngine class.
 
-## This Problem is particularly designed to test your oop concepts
-## Use object oriented concepts to model this problem. Use OOP concepts which you think would fits into this problem nicley and gives us elegnat solution.
+## This Problem is particularly designed to test your oop concepts and how you will use those concepts in real life.
+## Use object oriented concepts to model this problem. Use thoses concepts which you think would fits into this problem nicley and gives us elegnat solution.
 ## Your solution will be judged based on your decision choices you took for solving this problem.

@@ -1,4 +1,3 @@
-
 # write a function to sort the list of number in decreasing order (use ruby builtin sort function)
 
 # Solve these set of questions using ruby higher order functions that are in ruby builtin

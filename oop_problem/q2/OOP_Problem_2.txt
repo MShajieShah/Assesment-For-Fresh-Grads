@@ -1,0 +1,15 @@
+Design a customer class that should be used in a project that system plus client will use in his next startup.
+For simplicity the client wants a ruby native class.
+Requirments are given below:
+    It should have following fields: name , customer_unique_id , phone_number ,email , address  , payment_status(success,failed)
+    We need a function upon calling that function it returns the data of all customers.
+    If we provide data in csv(comma seprated) file . it should be able to import that data in to your class.
+    A function which should return the count of success and failed payments. (This function will be most frequently called)
+    A function which should return all those customers who have payment_status as success
+    Except unique id we can update any field of the customer.
+    Two customers cannot have same phone number or email.
+
+Use Object oriented programming paradigm to solve this problem.
+Your solution will be judged based on decision choices and data structures you chooze to solve this problem.
+Best of luck.
+Happy Coding.
