@@ -4,12 +4,12 @@ Instead of hitting the api we have provided you a class called Internet which wi
 
 You will call this method like this and this will handle the return of data instead of hitting an actual endpoint.
 
-In case if you don't know how api works just type this url {https://catfact.ninja/fact} in the browser  you will see a json response in your browser window.This is an example of get request where baseurl is catfact.ninja and one of the endpoint is fact. Base url and end point has one to many relationship.
+In case if you don't know how api works just copy this url { https://catfact.ninja/fact } in the browser you will see a json response in your browser window.This is an example of get request where baseurl is catfact.ninja and one of the endpoint is fact. Base url and end point has one to many relationship.
 
 (So in our case instead of making a real call to the internet we will be making a call to our class Internet that will return the data for us. The Internet class that you are provided with is written in ruby. If you are doing the assessment in a language other than ruby then translate this class into the programming language your choice)
 
 
-# Here are the three apis that sohail has given you for now to make a wrapper class around these three apis. As project is going on you will receive more apis so you have to design your classes in such a way that you have to do minimlist work to make any incoming api work correclty under system 
+Here are the three apis that sohail has given you for now to make a wrapper class around these three apis. As project is going on you will receive more apis so you have to design your classes in such a way that you have to do minimlist work to make any incoming api work correclty under system 
 
 * https://test-api1/get_items   token for this api is 123
 * https://test-api2/items	         token for this api is 456
@@ -18,7 +18,7 @@ In case if you don't know how api works just type this url {https://catfact.ninj
 Each api have a different token which will be added after the url like this  https://api/some_end_point?token=place_token_here
 
 
-# And now the major question after getting the data from api where we have to store it. For that i have a written a dummy class SearchEngine which will return the instance of database where you can store the data in it.You can get an instance of SearchEngine by calling SearchEngine.get_instance.And in that instance you can call two methods display_data and store_data.
+And now the major question after getting the data from api where we have to store it. For that i have a written a dummy class SearchEngine which will return the instance of database where you can store the data in it.You can get an instance of SearchEngine by calling SearchEngine.get_instance.And in that instance you can call two methods display_data and store_data.
 
 * instance = SearchEngine.get_instance
 * instance.display_data
