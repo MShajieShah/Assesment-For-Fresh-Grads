@@ -5,7 +5,7 @@
 # 1) Write a function which takes sum of only even numbers in a list and return that sum.
 
 
-# 2) Write a function that square of the number when it is even . take the cube root of the digit when it is odd and then take the sum.
+# 2) Write a function that will take the square of the number when it is even . take the cube root of the digit when it is odd and then take the sum.
 # Function will return one scalar value(single value)
 
 # Examples:
