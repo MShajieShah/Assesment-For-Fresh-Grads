@@ -15,5 +15,7 @@
 
 3. After you are done implementing a task, please add comments in the code file
    for clear understanding and write the command required to run your file to test it.
-   
-4. In case of confusions, please contact us at our email.
+
+4. If you do any assumption in code. Write that out , so we test that accordingly
+
+5. In case of confusions, please contact us at our email.
