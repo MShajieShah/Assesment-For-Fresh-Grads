@@ -24,8 +24,8 @@ And now the major question after getting the data from api where we have to stor
 * instance.display_data
 * instance.store_data(name , description ,price)
 
-# Our end goal is to take data from those three apis and store them in SearchEngine. So when we call instance.display_data it will show all the data. So you have to design a sync class which will take data and update/add in SeachEngine class.
-
-## This Problem is particularly designed to test your oop concepts and how you will use those concepts in real life.
-## Use object oriented concepts to model this problem. Use thoses concepts which you think would fits into this problem nicley and gives us elegnat solution.
-## Your solution will be judged based on your decision choices you took for solving this problem.
+Our end goal is to take data from those three apis and store them in SearchEngine. So when we call instance.display_data it will show all the data. So you have to design a sync class which will take data and update/add in SeachEngine class.
+##
+This Problem is particularly designed to test your oop concepts and how you will use those concepts in real life.
+Use object oriented concepts to model this problem. Use thoses concepts which you think would fits into this problem nicley and gives us elegnat solution.
+Your solution will be judged based on your decision choices you took for solving this problem.
