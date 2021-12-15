@@ -1,7 +1,7 @@
 # Write a sort function to sort the following string. You are not allowed to use any builtin sort function that are provided by language libraries.
 # You have to sort the string first according to digits and then according to alphabetical order.
 # Write your own sort function that you think, will be suitable in case of this type of data and will be faster.
-# Also write your reasoning why you are choosing certain algorithum. And write the time and space complexity
+# Also write your reasoning why you are choosing certain algorithm. And write the time and space complexity
 
 # Example
     # Input  "0a12b3c4e5r"

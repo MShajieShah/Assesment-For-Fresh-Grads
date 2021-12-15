@@ -4,7 +4,7 @@
 
 # note (a,b) is same as (b,a)
 
-# Example : 
+# Example: 
     # Input [4,6,7,2,1,4] , 8
     # Output [ (4,4) (6,2) (7,1) ]
 

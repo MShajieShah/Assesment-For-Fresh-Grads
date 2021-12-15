@@ -23,4 +23,4 @@
     # Output false
     # There is not path between peshwar and kasur
 
-# hint: Graph problem
+# Hint: Graph problem
