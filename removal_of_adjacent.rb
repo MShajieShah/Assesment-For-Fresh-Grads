@@ -14,9 +14,8 @@ def remove_duplicates(s)
   s.each do |item|
     item == stack[-1] ? stack.pop : stack.push(item)
   end
-  stack.join(" ")
 end
 
 p remove_duplicates(["the", "ball", "ball", "the", "cat", "the"])
-p remove_duplicates(['zero','one' , 'two' ,'three', 'three' ,'two' ,'one' ,'zero'])
-p remove_duplicates(['zero','one' , 'two' ,'three' ,'two' ,'one' ,'zero'])
+p remove_duplicates(["zero", "one", "two", "three", "three", "two", "one", "zero"])
+p remove_duplicates(["zero", "one", "two", "three", "two", "one", "zero"])
