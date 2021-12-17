@@ -32,3 +32,12 @@ end
 
 p maximum_consective("qzzzzzzzqzzz")
 p maximum_consective("aabbfccddeefffggh")
+
+# or
+
+def maximum_consective(str)
+  str.each_char.chunk_while(&:==).map(&:join).max_by(&:length)[0]
+end
+
+p maximum_consective("qzzzzzzzqzzz")
+p maximum_consective("aabbfccddeefffggh")
